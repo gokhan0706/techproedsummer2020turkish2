@@ -64,23 +64,9 @@ public class Li01 {
 		
 		linkedList.removeLast();
 		System.out.println(linkedList);
-		
+				
 		linkedList.removeIf(t->t.contains("a"));
-		System.out.println(linkedList);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println(linkedList.size());
 
 	}
 
