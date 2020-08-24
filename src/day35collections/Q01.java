@@ -29,6 +29,8 @@ public class Q01 {
 		System.out.println(q01.poll());//Size ilk elemani verir ama ilk elemani Queue'dan siler
 		System.out.println(q01);
 		
+		//PriorityQueue kullanirsaniz bazen natural order'a gore elemanlari dizer, 
+		//bazen de Java arkada kendine gore bir kural olusturur ve ona gore elemanlari dizer.
 		Queue<String> q02 = new PriorityQueue<>();
 		q02.add("Apple");
 		q02.add("Mango");
