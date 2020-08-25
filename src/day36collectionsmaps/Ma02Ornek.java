@@ -18,25 +18,29 @@ public class Ma02Ornek {
 		HashMap<String, Integer> hm = new HashMap<>();
 		
 		for(String w: kelime) {
+			
 			if(w.contains(".")) {
+				
 				w = w.replace(".", "");
+				
 				if(!hm.containsKey(w)) {
 				   hm.put(w, 1);
 				}else {
 				   hm.put(w, hm.get(w)+1);	
 				}
+				
 			}else {
+				
 				if(!hm.containsKey(w)) {
 					   hm.put(w, 1);
 					}else {
 					   hm.put(w, hm.get(w)+1);	
 					}
+				
 			}
 		}
 		
 		System.out.println(hm);
-		
-
 	}
 
 }
